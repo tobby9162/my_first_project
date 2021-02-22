@@ -1,9 +1,39 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>github를 이용해 웹사이트 만들기</title>
-  <head>
-  <body>
-    깃허브를 이용한 웹사이트 만들기
-  </body>
+<html lang="ko">
+
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="js/script.js"></script>
+</head>
+<body>
+ 
+<div id="lnb">
+  <ul>
+    <li id="draggable" class="ui-state-highlight">Drag me down</li>
+  </ul>
+   
+  <ul id="sortable">
+    <li class="ui-state-default" onclick="getSubpage(1);">Subpabe 1</li>
+    <li class="ui-state-default" onclick="getSubpage(2);">Subpabe 2</li>
+    <li class="ui-state-default" onclick="getSubpage(3);">Subpabe 3</li>
+    <li class="ui-state-default" onclick="getSubpage(4);">Subpabe 4</li>
+    <li class="ui-state-default" onclick="getSubpage(5);">Subpabe 5</li>
+  </ul>
+</div>
+
+<div id="subWrap">
+  <h2 class='sub-title'>메인 페이지입니다.</h2>
+  <div>
+    <iframe src='https://player.vimeo.com/video/195557011' width='640' height='360' frameborder='0' allow='autoplay; fullscreen; picture-in-picture' allowfullscreen></iframe>
+  </div>
+  <div>
+    <img src="http://farm5.static.flickr.com/4057/4274370734_03298a97f2_o.jpg"/>
+  </div>
+</div>
+
+</body>
 </html>

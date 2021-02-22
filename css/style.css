@@ -1,0 +1,19 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+	font-size: 1em;
+}
+
+ul { list-style-type: none; margin: 0; padding: 0; margin-bottom: 10px; }
+li { margin: 5px; padding: 5px; width: 150px; }
+
+.ui-draggable, .ui-droppable {
+	background-position: top;
+}
+
+#lnb {float:left;width:200px;}
+#subWrap {margin-left:210px;}
+
+h2.sub-title {font-weight: bold;font-size: 20px;}
